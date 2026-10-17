@@ -191,8 +191,7 @@ When migrating workloads to the cloud, organizations typically follow one or mor
     
 **Note:** Wherever applicable, we will use **Terraform** to automate infrastructure provisioning.  
 ### **Step 19: Route 53 DNS Configuration**  
-- Create a **Hosted Zone** in **Route 53**. Example:  
-  - `techworldwithmurali.in`  
+- Create a **Hosted Zone** in **Route 53**. 
 - Migrate DNS records to the **Route 53 hosted zone**, if applicable.  
 
 ### **Step 20: Database Setup**  
