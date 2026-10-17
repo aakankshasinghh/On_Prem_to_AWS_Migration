@@ -158,7 +158,7 @@ When migrating workloads to the cloud, organizations typically follow one or mor
 **Note:** Wherever applicable, we will use **Terraform** to automate infrastructure provisioning.  
 ### **Step 15: AWS Client VPN / Cisco VPN Setup**  
 - Set up **AWS Client VPN** or **Cisco VPN** to allow secure access to private AWS resources.  
-- Example use case: **Accessing internal application URLs (e.g., https://user-registration-dev.techworldwithmurali.in).**  
+- Example use case: **Accessing internal application URLs.**  
 
 **Prerequisites for AWS Client VPN Setup:**  
 1. **AWS Directory Service** configuration  
@@ -172,12 +172,7 @@ When migrating workloads to the cloud, organizations typically follow one or mor
 **Tools to be installed:**  
 - **Jenkins** - for CI/CD pipeline automation  
 - **JFrog Artifactory** - for artifact storage  
-- **SonarQube** - for code quality analysis  
-
-#### **Example URLs:**  
-- **Jenkins** - https://jenkins.techworldwithmurali.in  
-- **JFrog Artifactory** - https://artifactory.techworldwithmurali.in  
-- **SonarQube** - https://sonarqube.techworldwithmurali.in  
+- **SonarQube** - for code quality analysis    
 
 **Note:** These tools can either be deployed on **individual EC2 instances** or hosted in an **EKS (Kubernetes) cluster** for better scalability.  
 
